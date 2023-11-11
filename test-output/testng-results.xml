@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-05T13:06:25 WAT" name="Suite" finished-at="2023-11-05T13:07:53 WAT" duration-ms="87639">
+    <groups>
+      <group name="purchasing">
+        <method signature="StandAlonetest.checkSubmittedorder()[pri:0, instance:intrTrainingSeleniumWithRahul.StandAlonetest@289710d9]" name="checkSubmittedorder" class="intrTrainingSeleniumWithRahul.StandAlonetest"/>
+      </group> <!-- purchasing -->
+    </groups>
+    <test started-at="2023-11-05T13:06:25 WAT" name="Failed Scenario" finished-at="2023-11-05T13:07:26 WAT" duration-ms="60692">
+      <class name="intrTrainingSeleniumWithRahul.FailedScenario">
+        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:intrTrainingSeleniumWithRahul.FailedScenario@7203c7ff]" started-at="2023-11-05T13:06:25 WAT" name="lunchApplication" finished-at="2023-11-05T13:06:41 WAT" duration-ms="15383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchApplication -->
+        <test-method signature="failedConnexion()[pri:1, instance:intrTrainingSeleniumWithRahul.FailedScenario@7203c7ff]" started-at="2023-11-05T13:06:41 WAT" name="failedConnexion" finished-at="2023-11-05T13:06:47 WAT" duration-ms="6614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedConnexion -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:intrTrainingSeleniumWithRahul.FailedScenario@7203c7ff]" started-at="2023-11-05T13:06:47 WAT" name="closeBrowser" finished-at="2023-11-05T13:06:52 WAT" duration-ms="4163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:intrTrainingSeleniumWithRahul.FailedScenario@7203c7ff]" started-at="2023-11-05T13:06:52 WAT" name="lunchApplication" finished-at="2023-11-05T13:07:09 WAT" duration-ms="17743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchApplication -->
+        <test-method signature="failedAddedItemToCard()[pri:2, instance:intrTrainingSeleniumWithRahul.FailedScenario@7203c7ff]" started-at="2023-11-05T13:07:09 WAT" name="failedAddedItemToCard" finished-at="2023-11-05T13:07:22 WAT" duration-ms="12479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedAddedItemToCard -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:intrTrainingSeleniumWithRahul.FailedScenario@7203c7ff]" started-at="2023-11-05T13:07:22 WAT" name="closeBrowser" finished-at="2023-11-05T13:07:26 WAT" duration-ms="4108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- intrTrainingSeleniumWithRahul.FailedScenario -->
+    </test> <!-- Failed Scenario -->
+    <test started-at="2023-11-05T13:06:25 WAT" name="Submit Order" finished-at="2023-11-05T13:07:53 WAT" duration-ms="87639">
+      <class name="intrTrainingSeleniumWithRahul.StandAlonetest">
+        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:intrTrainingSeleniumWithRahul.StandAlonetest@289710d9]" started-at="2023-11-05T13:06:26 WAT" name="lunchApplication" finished-at="2023-11-05T13:06:40 WAT" duration-ms="14264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:intrTrainingSeleniumWithRahul.StandAlonetest@289710d9]" started-at="2023-11-05T13:06:40 WAT" name="submitOrder" data-provider="getData" finished-at="2023-11-05T13:06:55 WAT" duration-ms="14297" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=MEDKHL@ssw0rd, email=kahlouchmamado@gmail.com, productName=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:intrTrainingSeleniumWithRahul.StandAlonetest@289710d9]" started-at="2023-11-05T13:06:55 WAT" name="closeBrowser" finished-at="2023-11-05T13:06:59 WAT" duration-ms="4206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:intrTrainingSeleniumWithRahul.StandAlonetest@289710d9]" started-at="2023-11-05T13:06:59 WAT" name="lunchApplication" finished-at="2023-11-05T13:07:15 WAT" duration-ms="15937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:intrTrainingSeleniumWithRahul.StandAlonetest@289710d9]" started-at="2023-11-05T13:07:15 WAT" name="submitOrder" data-provider="getData" finished-at="2023-11-05T13:07:29 WAT" duration-ms="13802" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=MEDKHL@ssw0rd, email=Testname@gmail.com, productName=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:intrTrainingSeleniumWithRahul.StandAlonetest@289710d9]" started-at="2023-11-05T13:07:29 WAT" name="closeBrowser" finished-at="2023-11-05T13:07:33 WAT" duration-ms="4396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:intrTrainingSeleniumWithRahul.StandAlonetest@289710d9]" started-at="2023-11-05T13:07:33 WAT" name="lunchApplication" finished-at="2023-11-05T13:07:42 WAT" duration-ms="9080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchApplication -->
+        <test-method signature="checkSubmittedorder()[pri:0, instance:intrTrainingSeleniumWithRahul.StandAlonetest@289710d9]" started-at="2023-11-05T13:07:42 WAT" name="checkSubmittedorder" finished-at="2023-11-05T13:07:49 WAT" depends-on-methods="intrTrainingSeleniumWithRahul.StandAlonetest.submitOrder" duration-ms="6597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSubmittedorder -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:intrTrainingSeleniumWithRahul.StandAlonetest@289710d9]" started-at="2023-11-05T13:07:49 WAT" name="closeBrowser" finished-at="2023-11-05T13:07:53 WAT" duration-ms="4202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- intrTrainingSeleniumWithRahul.StandAlonetest -->
+    </test> <!-- Submit Order -->
+  </suite> <!-- Suite -->
+</testng-results>
